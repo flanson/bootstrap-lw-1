@@ -9,7 +9,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Joe Dever's Lone Wolf - Hero Stats</title>
+        <title>Joe Dever's Lone Wolf - Hero Life</title>
 
         <!-- Bootstrap core CSS -->
         <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -30,18 +30,25 @@
         <div class="container">
 
             <form class="form-signin form-hero form-horizontal">
-                <h2 class="form-signin-heading">Create/Edit Hero</h2>
-                <div class="form-group has-success has-feedback">
-                    <label class="control-label col-sm-6 col-xs-6 text-uppercase" for="inputSuccess3">Endurance</label>
-                    <div class="col-sm-6 col-xs-6">
-                        <div class="input-group">
-                            <span class="input-group-addon text-uppercase"><strong>E</strong></span>
-                            <input type="text" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status">
+                <h2 class="form-signin-heading">Hero Life</h2>
+                <div class="row row-padding-after text-center">
+                    <div class="col-xs-9">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                <span class="sr-only">40% Complete (success)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="life-status">
+                            <div class="life-status-current block-inline">25</div>
+                            /
+                            <div class="life-status-max block-inline">45</div>
                         </div>
                     </div>
                 </div>
                 <div class="form-group has-success has-feedback">
-                    <label class="control-label col-sm-6 col-xs-6 text-uppercase" for="inputGroupSuccess2">Combat skill</label>
+                    <label class="control-label col-sm-6 col-xs-6 text-uppercase" for="inputGroupSuccess2">Current</label>
                     <div class="col-sm-6 col-xs-6">
                         <div class="input-group">
                             <span class="input-group-addon text-uppercase"><strong>H</strong></span>
@@ -49,7 +56,7 @@
                         </div>
                     </div>
                 </div>
-                <button class="btn btn-lg btn-primary btn-block" type="submit">Create/Save</button>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Save</button>
             </form>
 
         </div> <!-- /container -->

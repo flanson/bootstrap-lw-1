@@ -2,6 +2,34 @@
     padding-bottom: 15px;
 }
 
+.row-padding-after-small {
+    padding-bottom: 5px;
+}
+
+.number-keyboard-panel-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .bg-old-paper {
     background-image: url(../img/free-paper-texture-6.jpg);
+}
+
+.block-inline {
+    display: inline-block;
+}
+
+/* To REMOVE when real color found */
+.btn-primary {
+    color: #fff;
+    background-color: #69212A;
+    border-color: #69212A;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+.life-status {
+    color: #fff;
 }

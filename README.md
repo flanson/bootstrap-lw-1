@@ -11,19 +11,29 @@ Test of creation of template mini project
    - [x] Background
  - [x] Signin 
  - [x] Create Hero
-   - [ ] Background
+   - [x] Background
  - [x] Edit Hero (stats)
-   - [ ] Background
- - [ ] Edit Hero (life)
- - [ ] Choose destination
-   - [ ] Hero life status (progressive bar)
- - [ ] Combat 
+   - [x] Background
+ - [x] Edit Hero (life)
+   - [x] Background
+   - [x] Hero life status (progressive bar)
+#   - [ ] animate progressive bar with [js][progressive-bar-animation]
+ - [x] Choose destination
+   - [x] Hero life status (progressive bar)
+   - [x] Choose chapter number (modal ?)
+   - [x] Fake keyboard for numbers 
+ - [x] Define enemy before combat 
+ - [x] Combat
+ - [x] Dead screen
+ - [x] Texts in white
+ - [ ] Test on heroku
  - ...
  - [ ] Items management screens
  - [ ] Story management screens
  - [ ] Forms feedbacks
  - [ ] Screens transitions
  - [ ] add icons
+   - [ ] add font awesome icons
  - [ ] manage build with [Grunt][grunt] (creation of tag)
  
  
@@ -64,4 +74,5 @@ Private Use
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
    [grunt]: <http://gruntjs.com/>
+   [progressive-bar-animation]: <http://kimmobrunfeldt.github.io/progressbar.js/#example-custom-animation>
 
