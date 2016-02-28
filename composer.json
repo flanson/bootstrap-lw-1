@@ -1,0 +1,14 @@
+{
+    "name": "flanson/bootstrap-lw-1",
+    "description": "Simple template for app test",
+    "type": "application",
+    "license": "Private Use",
+    "authors": [
+        {
+            "name": "flanson",
+            "email": "f.lanson@eurelis.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
