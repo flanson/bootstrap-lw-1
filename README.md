@@ -26,7 +26,7 @@ Test of creation of template mini project
  - [x] Combat
  - [x] Dead screen
  - [x] Texts in white
- - [ ] Test on heroku
+ - [x] Test on heroku
  - ...
  - [ ] Items management screens
  - [ ] Story management screens
